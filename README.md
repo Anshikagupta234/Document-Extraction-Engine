@@ -22,7 +22,7 @@ doc-extractor/
     ├── sample_resume.txt
     └── sample_contract.txt
 
-🚀 Setup Steps
+Setup Steps:
 Step 1 — Get a Gemini API Key
 
 Go to https://aistudio.google.com/app/apikey
@@ -86,7 +86,7 @@ Click Extract Data
 View results with confidence scores
 
 
-🧠 Prompt Design Explanation
+Prompt Design Explanation
 The extraction engine uses a two-part prompt strategy:
 Part 1 — System Prompt (Rules)
 The system prompt is sent once and defines strict rules for the AI:
@@ -118,17 +118,17 @@ Asking for confidence scores makes the model reason about certainty
 Requesting only JSON prevents any extra text that would break parsing
 
 
-📋 Schema Definitions
-🧾 Invoice Schema
+Schema Definitions
+Invoice Schema
 FieldRequiredDescriptionvendor_nameYESName of company issuing the invoicevendor_addressnoFull address of vendorinvoice_numberYESUnique invoice IDinvoice_dateYESDate invoice was issueddue_datenoPayment deadlinebill_to_nameYESClient being billedbill_to_addressnoClient addressline_itemsYESList of {description, quantity, unit_price, total}subtotalnoAmount before taxtax_amountnoTax chargeddiscountnoAny discount appliedtotal_amountYESFinal total duecurrencynoCurrency code (USD, INR, EUR)payment_termsnoe.g. Net 30notesnoAdditional remarks
 
-📄 Resume Schema
+Resume Schema
 FieldRequiredDescriptionfull_nameYESCandidate full nameemailYESEmail addressphonenoPhone numberlocationnoCity, state, countrylinkedin_urlnoLinkedIn profile URLsummarynoProfessional summaryskillsYESList of skillsexperienceYESList of {company, title, duration, responsibilities}educationYESList of {institution, degree, field, year}certificationsnoList of certificationslanguagesnoLanguages with proficiencyprojectsnoList of {name, description, technologies}
 
-📝 Contract Schema
+Contract Schema
 FieldRequiredDescriptioncontract_titleYESType/title of contractparty_oneYESFirst party name and roleparty_twoYESSecond party name and roleeffective_dateYESContract start dateexpiry_datenoContract end datecontract_valuenoMonetary value if statedjurisdictionnoGoverning law/locationkey_obligationsYESMain duties of each partytermination_clausenoConditions to end contractpayment_termsnoPayment scheduleconfidentialitynoWhether NDA clause existssignaturesnoList of {name, title, date}
 
-❌ How Extraction Failures Are Handled
+How Extraction Failures Are Handled
 The engine handles every type of failure gracefully:
 1. Unsupported File Type
 
