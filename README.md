@@ -2,7 +2,7 @@
 
 An AI-powered document extraction engine that accepts uploaded files (PDFs, text files, and images) and returns clean, structured JSON — powered by Google Gemini AI, FastAPI, and Streamlit.
 
-📁 Project Structure
+# Project Structure
 doc-extractor/
 ├── backend/
 │   ├── main.py          → FastAPI app (all API routes)
