@@ -1,0 +1,123 @@
+{
+  "id": "3cdfb0e1-c68f-4205-8468-fa1e43ef2a43",
+  "filename": "simple_invoice.txt",
+  "document_type": "invoice",
+  "timestamp": "2026-05-23T21:09:16.210436",
+  "extracted_data": {
+    "document_type": "invoice",
+    "extraction_confidence": "high",
+    "fields": [
+      {
+        "field_name": "vendor_name",
+        "value": "Rahul Sharma Freelancer",
+        "confidence": "high",
+        "note": null
+      },
+      {
+        "field_name": "vendor_address",
+        "value": null,
+        "confidence": "high",
+        "note": "Only email and phone number are provided for the vendor, no physical address."
+      },
+      {
+        "field_name": "invoice_number",
+        "value": "INV-001",
+        "confidence": "high",
+        "note": null
+      },
+      {
+        "field_name": "invoice_date",
+        "value": "2024-05-01",
+        "confidence": "high",
+        "note": "Parsed '1 May 2024' to ISO format"
+      },
+      {
+        "field_name": "due_date",
+        "value": "2024-05-31",
+        "confidence": "high",
+        "note": "Parsed '31 May 2024' to ISO format"
+      },
+      {
+        "field_name": "bill_to_name",
+        "value": "ABC Company",
+        "confidence": "high",
+        "note": null
+      },
+      {
+        "field_name": "bill_to_address",
+        "value": "Delhi",
+        "confidence": "high",
+        "note": null
+      },
+      {
+        "field_name": "line_items",
+        "value": [
+          {
+            "description": "Logo Design",
+            "quantity": null,
+            "unit_price": null,
+            "total": 5000.0
+          },
+          {
+            "description": "Business Card Design",
+            "quantity": null,
+            "unit_price": null,
+            "total": 2000.0
+          },
+          {
+            "description": "Social Media Posts (10 posts)",
+            "quantity": null,
+            "unit_price": null,
+            "total": 3000.0
+          }
+        ],
+        "confidence": "high",
+        "note": "Quantities and unit prices are not explicitly broken down apart from total line amounts and item descriptions."
+      },
+      {
+        "field_name": "subtotal",
+        "value": 10000.0,
+        "confidence": "high",
+        "note": null
+      },
+      {
+        "field_name": "tax_amount",
+        "value": 1800.0,
+        "confidence": "high",
+        "note": "Calculated as 18% of the subtotal"
+      },
+      {
+        "field_name": "discount",
+        "value": null,
+        "confidence": "high",
+        "note": "No discounts are mentioned in the document"
+      },
+      {
+        "field_name": "total_amount",
+        "value": "Rs. 11,800",
+        "confidence": "high",
+        "note": null
+      },
+      {
+        "field_name": "currency",
+        "value": "INR",
+        "confidence": "high",
+        "note": "Inferred from currency symbol 'Rs.'"
+      },
+      {
+        "field_name": "payment_terms",
+        "value": null,
+        "confidence": "high",
+        "note": "Specific payment duration terms (e.g. Net 30) are not defined, though payment method instructions are provided."
+      },
+      {
+        "field_name": "notes",
+        "value": "Payment: Bank Transfer. Bank: SBI | Account: 1234567890 | IFSC: SBIN0001234. Thank you!",
+        "confidence": "high",
+        "note": null
+      }
+    ],
+    "summary": "This is an invoice from freelancer Rahul Sharma to ABC Company for design and social media services totaling Rs. 11,800, due on May 31, 2024."
+  },
+  "raw_text_length": 430
+}

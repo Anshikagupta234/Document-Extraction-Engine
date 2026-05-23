@@ -1,0 +1,126 @@
+{
+  "id": "cdd2598c-909f-43f2-884a-618c67e22dc6",
+  "filename": "ANSHIKA resume .pdf",
+  "document_type": "resume",
+  "timestamp": "2026-05-23T20:03:31.705074",
+  "extracted_data": {
+    "document_type": "resume",
+    "extraction_confidence": "high",
+    "fields": [
+      {
+        "field_name": "full_name",
+        "value": "ANSHIKA GUPTA",
+        "confidence": "high"
+      },
+      {
+        "field_name": "email",
+        "value": "anshikagupta9641@gmail.com",
+        "confidence": "high"
+      },
+      {
+        "field_name": "phone",
+        "value": "+91 9641532571",
+        "confidence": "high"
+      },
+      {
+        "field_name": "location",
+        "value": null,
+        "confidence": "low",
+        "note": "The document does not explicitly state the candidate's current location, although they attend school in Sikkim."
+      },
+      {
+        "field_name": "linkedin_url",
+        "value": "www.linkedin.com/in/anshika-gupta-b954a7344",
+        "confidence": "high"
+      },
+      {
+        "field_name": "summary",
+        "value": null,
+        "confidence": "low",
+        "note": "No professional summary or objective statement is present in the document."
+      },
+      {
+        "field_name": "skills",
+        "value": [
+          "Python",
+          "C++",
+          "Java",
+          "SQL",
+          "HTML",
+          "CSS",
+          "Excel",
+          "PowerPoint"
+        ],
+        "confidence": "high"
+      },
+      {
+        "field_name": "experience",
+        "value": [
+          {
+            "company": "ShadowFox",
+            "title": "Data Science Intern",
+            "duration": null,
+            "responsibilities": [
+              "Specialized in data visualization and applying machine learning algorithms to build predictive models and analyze trends.",
+              "Transformed raw data into meaningful insights to enable and support data-driven decision making."
+            ]
+          }
+        ],
+        "confidence": "high",
+        "note": "The duration of the internship was not provided in the document."
+      },
+      {
+        "field_name": "education",
+        "value": [
+          {
+            "institution": "Sikkim Manipal Institute of Technology (SMIT)",
+            "degree": "B.tech",
+            "field": "Computer Science and Engineering",
+            "year": "2023-2027"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "field_name": "certifications",
+        "value": [
+          "Generative AI and LLMs - by MUJ (Manipal University of Jaipur)",
+          "Deloitte Australia Technology Job Simulation – Forage",
+          "Machine learning using python – Simplilearn",
+          "Developing LLM Applications with LangChain – Coursera"
+        ],
+        "confidence": "high"
+      },
+      {
+        "field_name": "languages",
+        "value": null,
+        "confidence": "low",
+        "note": "No spoken languages were listed in the resume."
+      },
+      {
+        "field_name": "projects",
+        "value": [
+          {
+            "name": "Phishing URL detection using Transformer-Based Model (DeBERTa)",
+            "description": "Built a hybrid phishing URL detection model using DeBERTa and 18 handcrafted URL features. Trained on 235K+ URLs using PyTorch and Hugging Face Transformers. Achieved ~98% accuracy in detecting phishing and legitimate URLs.",
+            "technologies": [
+              "DeBERTa",
+              "PyTorch",
+              "Hugging Face Transformers"
+            ]
+          },
+          {
+            "name": "Customer Churn Prediction Using Machine Learning",
+            "description": "Built a machine learning model to predict customer churn using classification algorithms and data preprocessing techniques. Improved customer retention insights by analyzing key features like tenure and monthly charges.",
+            "technologies": [
+              "Machine Learning"
+            ]
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "summary": "Professional resume of Anshika Gupta, a B.Tech Computer Science student at Sikkim Manipal Institute of Technology with project experience in machine learning and a data science internship at ShadowFox."
+  },
+  "raw_text_length": 1463
+}
