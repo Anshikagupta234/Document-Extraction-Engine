@@ -14,13 +14,8 @@ doc-extractor/
 │   └── .env             → Your Gemini API key (never commit this)
 │
 ├── frontend/
-│   ├── app.py           → Streamlit UI
-│   └── requirements.txt → Frontend dependencies
-│
-└── sample_docs/
-    ├── sample_invoice.txt
-    ├── sample_resume.txt
-    └── sample_contract.txt
+    ├── app.py           → Streamlit UI
+    └── requirements.txt → Frontend dependencies
 
 Setup Steps:
 Step 1 — Get a Gemini API Key
